@@ -1,0 +1,70 @@
+.hidden {
+    display: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    height: 40px;
+    width: 371px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+input {
+    width: 272px;
+    padding-left: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    color: #808080;
+}
+
+button[type=submit] {
+    width: 91px;
+    padding: 0px;
+    background-color: #4E75FF;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+button[type=button] {
+    width: 125px;
+    height: 40px;
+    padding: 8px 16px;
+    background-color: #4E75FF;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    justify-content: center;
+    margin: 10px auto 0 auto;
+    cursor: pointer;
+}
+
+@keyframes prixClipFix {
+    0% {
+        clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0)
+    }
+
+    25% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0)
+    }
+
+    50% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%)
+    }
+
+    75% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%)
+    }
+
+    100% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0)
+    }
+}
+
+.loader.hidden {
+    display: none;
+}
