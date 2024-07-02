@@ -22,47 +22,6 @@ style.innerHTML = `
 `;
 document.head.appendChild(style);
 
-searchForm.style.display = 'flex';
-searchForm.style.justifyContent = 'center';
-searchForm.style.gap = '8px';
-searchForm.style.height = '40px';
-searchForm.style.width = '371px';
-searchForm.style.margin = '0 auto';
-searchForm.style.fontFamily = 'Montserrat';
-searchForm.style.fontSize = '16px';
-
-
-searchInput.style.width = '272px';
-searchInput.style.paddingLeft = '16px';
-searchInput.style.border = '1px solid #808080';
-searchInput.style.borderRadius = '4px';
-searchInput.style.color = '#808080';
-
-
-searchButton.style.width = '91px';
-searchButton.style.padding = '0px';
-searchButton.style.backgroundColor = '#4E75FF';
-searchButton.style.border = 'none';
-searchButton.style.borderRadius = '8px';
-searchButton.style.color = '#FFFFFF';
-
-loadMoreBtn.style.width = '125px';
-loadMoreBtn.style.height = '40px';
-loadMoreBtn.style.padding = '8px 16px 8px 16px';
-loadMoreBtn.style.backgroundColor = '#4E75FF';
-loadMoreBtn.style.border = 'none';
-loadMoreBtn.style.borderRadius = '8px';
-loadMoreBtn.style.color = '#FFFFFF';
-
-loadMoreBtn.style.justifyContent = 'center';
-loadMoreBtn.style.margin = '0 auto';
-loadMoreBtn.style.marginTop = '10px';
-loadMoreBtn.style.cursor = 'pointer';
-loadMoreBtn.classList.add('hidden');
-
-
-
-
 function showLoadMore() {
     loadMoreBtn.classList.remove('hidden');
 }
